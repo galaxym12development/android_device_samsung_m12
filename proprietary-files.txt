@@ -1,0 +1,21 @@
+# Audio - from m12nsxx-user 13 TP1A.220624.014 M127FXXS9DXJ1 release-keys
+vendor/etc/mixer_gains.xml
+vendor/etc/mixer_paths.xml
+vendor/firmware/aw8896_cfg.bin
+vendor/firmware/aw8896_fw_d.bin
+vendor/firmware/aw8896_fw_e.bin
+vendor/firmware/aw8896_reg.bin
+
+# NFC - from m12nsxx-user 13 TP1A.220624.014 M127FXXS9DXJ1 release-keys
+vendor/bin/hw/sec.android.hardware.nfc@1.2-service|efdc896f3f3a3e63417d4a7be1aaf87020485095
+vendor/etc/init/init.nfc.samsung.rc|33e9131b8cf58ba30e6248b3b65b918a3d2f67e2
+vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc|d3ac68ee975b18276f574ac1055f463f77e1afdc
+vendor/etc/nfc/sec_s3nrn4v_hwreg.bin|6511c66191f96cc7e60641e9d9a88d22be83eddb
+vendor/etc/nfc/sec_s3nrn4v_swreg.bin|f08512ed32650e556aeb12277b4058b20b7aee11
+-vendor/etc/vintf/manifest/sec.android.hardware.nfc@1.2-service.xml|07d05eedf2f8d102f92825802b90ac1365ec6418|ed01982f3ec9e5bf4d03637bd4a92d70539a2ea0
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin|fa9e9083e9d727e89c6806808e9317cb54740985
+vendor/lib64/android.hardware.nfc@1.0.so|7a9c0955cda604d450c3986f92c0903148207846
+vendor/lib64/android.hardware.nfc@1.1.so|2df6c45a113cb900b471a32ed027b1f65ee4c36f
+vendor/lib64/android.hardware.nfc@1.2.so|3c5b4da1646a6d784fbbc0371f798f3c0b025079
+vendor/lib64/nfc_nci_sec.so|313079401a0cd830cb3e555a1eded4629dd49001
+vendor/lib64/vendor.samsung.hardware.nfc@2.0.so|2ff522688b5a6fcee2b4e807bb8465ec74aa024d
