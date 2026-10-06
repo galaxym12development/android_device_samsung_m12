@@ -1,0 +1,25 @@
+//
+// Copyright (C) 2026 The galaxym12development Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "SamsungParts",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+
+    static_libs: [
+        "SettingsLib",
+        "androidx.preference_preference",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+}

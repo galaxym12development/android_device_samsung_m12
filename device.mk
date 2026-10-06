@@ -24,3 +24,8 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     FrameworksResM127G
+
+# Parts
+PRODUCT_PACKAGES += \
+    SamsungParts
+
