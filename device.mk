@@ -11,6 +11,10 @@ $(call inherit-product, device/samsung/m12-common/common.mk)
 # Inherit proprietary files
 $(call inherit-product, vendor/samsung/m12/m12-vendor.mk)
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
+
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 

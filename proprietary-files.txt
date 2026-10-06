@@ -1,6 +1,5 @@
 # Audio - from m12nsxx-user 13 TP1A.220624.014 M127FXXS9DXJ1 release-keys
 vendor/etc/mixer_gains.xml
-vendor/etc/mixer_paths.xml
 vendor/firmware/aw8896_cfg.bin
 vendor/firmware/aw8896_fw_d.bin
 vendor/firmware/aw8896_fw_e.bin
