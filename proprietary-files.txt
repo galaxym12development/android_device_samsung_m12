@@ -1,3 +1,82 @@
+# Audio - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+-vendor/lib/hw/audio.primary.exynos850.so
+-vendor/lib/libaudioproxy.so
+-vendor/lib/librecordalive.so
+-vendor/lib/soundfx/libaudioeffectoffload.so
+-vendor/lib/soundfx/libswdap.so
+-vendor/lib64/soundfx/libaudioeffectoffload.so
+vendor/etc/dolby/dax-default.xml
+vendor/etc/floating_feature.xml
+
+# Sound Effects - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+vendor/lib/lib_SoundAlive_play_plus_ver400.so
+vendor/lib/soundfx/libmysound.so
+vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+system/system/lib/libsamsungSoundbooster_plus_legacy.so
+system/system/lib64/libsamsungSoundbooster_plus_legacy.so
+vendor/lib/soundfx/libaudiosaplus_sec.so
+vendor/etc/SoundBoosterParam.txt
+vendor/lib64/lib_SoundAlive_play_plus_ver400.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libmysound.so
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+
+# Audio Firmware - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/APDV_AUDIO_SLSI.bin
+
+# Bluetooth Firmware - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+vendor/etc/wifi/mx140_bt.hcf
+
+# Camera dependencies - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+-vendor/lib/libexynoscamera3.so
+-vendor/lib/libexynoscamera_tdnr_plugin.so
+-vendor/lib64/libexynoscamera3.so
+-vendor/lib64/libexynoscamera_tdnr_plugin.so
+
+# Camera Firmware - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+vendor/firmware/setfile_gc02m1.bin
+vendor/firmware/setfile_gc02m1_macro.bin
+vendor/firmware/setfile_gc5035.bin
+vendor/firmware/setfile_gm2.bin
+vendor/firmware/setfile_sr846.bin
+vendor/firmware/tdnr_GC02M1.json
+vendor/firmware/tdnr_GC5035.json
+vendor/firmware/tdnr_S5KGM2.json
+vendor/firmware/tdnr_SR846.json
+
+# HWC - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+-vendor/lib/libExynosHWCService.so
+-vendor/lib/libdrmresource.so
+-vendor/lib/libexynosdisplay.so
+-vendor/lib64/libExynosHWCService.so
+-vendor/lib64/libdrmresource.so
+-vendor/lib64/libexynosdisplay.so
+
+# OMX Firmware - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+vendor/firmware/is_lib.bin
+vendor/firmware/is_rta.bin
+
+# TEEGRIS - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+vendor/tee/00000000-0000-0000-0000-000000534b4d
+vendor/tee/00000000-0000-0000-0000-0000534b504d
+vendor/tee/00000000-0000-0000-0000-0050524f4341
+vendor/tee/00000000-0000-0000-0000-0053545354ab
+vendor/tee/00000000-0000-0000-0000-46494e474502
+vendor/tee/00000000-0000-0000-0000-474154454b45
+vendor/tee/00000000-0000-0000-0000-4b45594d5354
+vendor/tee/00000000-0000-0000-0000-505256544545
+vendor/tee/00000000-0000-0000-0000-6b6e78677564
+
+# Wi-Fi - from m12dd-user 13 TP1A.220624.014 M127GXXS9DXJ1 release-keys
+vendor/etc/wifi/hydra_config.sdb
+vendor/etc/wifi/mx140_t_wlan.hcf
+vendor/etc/wifi/mx140_t_wlan_t.hcf
+vendor/etc/wifi/mx140_wlan.hcf
+vendor/etc/wifi/mx140_wlan_sw.hcf
+vendor/etc/wifi/mx140_wlan_t.hcf
+
 # Audio - from m12nsxx-user 13 TP1A.220624.014 M127FXXS9DXJ1 release-keys
 vendor/etc/mixer_gains.xml
 vendor/firmware/aw8896_cfg.bin

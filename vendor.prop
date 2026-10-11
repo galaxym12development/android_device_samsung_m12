@@ -1,3 +1,6 @@
+## Bluetooth
+bluetooth.device.default_name=Galaxy M12
+
 ## Display
 ro.surface_flinger.set_display_power_timer_ms=300
 ro.surface_flinger.set_idle_timer_ms=600
